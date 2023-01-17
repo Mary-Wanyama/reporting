@@ -1,0 +1,2 @@
+class Reveal < ApplicationRecord
+end

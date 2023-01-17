@@ -1,0 +1,2 @@
+class RevealsController < ApplicationController
+end
