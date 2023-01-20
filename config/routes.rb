@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
   resources :alerts
   resources :reveals
-  resources :users, only: [:update]
+  resources :users, only: [:update, :show]
 
-  get "/me", to: "users#show"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   post '/signup', to: 'users#create'
 
